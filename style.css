@@ -68,26 +68,25 @@ html {
   border-bottom: 2px solid white;
 }
 
-h1 {
+.box h1 {
   position: absolute;
   margin-left: 33px;
   margin-top: 20px;
   font-size: 50px;
 }
 
-#first {
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
 
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 500%;
+#first {
+  font-size: 250%;
+
 } 
 
 #start-screen {
-  position: absolute;
-  top: 150px;
-  left: 38%;
   font-size: 600%;
   width: 300px;
 }
@@ -95,7 +94,7 @@ h1 {
 #left {
   display: inline-block;
   float: left;
-}
+} 
 
 #right {
   display: inline-block;
